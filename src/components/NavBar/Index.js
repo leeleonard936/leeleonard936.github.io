@@ -1,4 +1,5 @@
 import './NavBar.css';
+import React from "react";
 //bootstrap dependencies
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -16,4 +17,4 @@ const NavBar = () => {
     );
 
 };
-export default Navbar
+export default NavBar
