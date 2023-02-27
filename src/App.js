@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
 
 import Home from './pages/Home'
+import Popup from './components/Popup'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <NavBar/>
         <header className="App-header">
           <Routes>
-            <Route exact path='/' element={<Home />} />
+            <Route exact path='/' element={<><Home /><Popup/></>} />
 
           </Routes>
         </header>
