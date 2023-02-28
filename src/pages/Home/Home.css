@@ -2,13 +2,31 @@
     text-align: center;
   }
   
-.card {
-    background-color: #eff4ff;
+#card {
+    background-color: #f3f6fb;
     min-height: 20vh;
+    /* min-width: 60vh; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     font-size: calc(5px + 2vmin);
     color: black;
+  }
+#maincol{
+  min-width: 60vw;
+}
+#sidecol {
+  min-width: 30vw;
+  max-width: 30vw;
+}
+#sidecard {
+    background-color: #f3f6fb;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    /*justify-content: center; */
+    font-size: calc(3px + 2vmin);
+    color: black;
+    padding: 15px;
   }
