@@ -12,12 +12,12 @@ export const skills = [
 {
     id: 3,
     skill: "C Language",
-    desc: ""
+    desc: "I have done coursework in C but would consider it one of my weaker languages"
 },
 {
     id: 4,
     skill: "C++",
-    desc: ""
+    desc: "C++ was the first language that I learned to code on, although I have not used it recently."
 },
 {
     id: 5,
@@ -27,7 +27,7 @@ export const skills = [
 {
     id: 6,
     skill: "React",
-    desc: ""
+    desc: "I am relatively well versed in react and would say it is my favorite javascript library to use. This website is built using React!"
 },
 {
     id: 7,
