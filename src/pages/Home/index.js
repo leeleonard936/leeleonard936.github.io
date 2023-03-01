@@ -2,10 +2,13 @@ import './Home.css';
 import React from "react";
 //bootstrap dependencies
 import Container from 'react-bootstrap/Container';
+import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {skills} from './../../data/skills'
 
 const Home = () =>{
     return(
@@ -17,7 +20,7 @@ const Home = () =>{
                         Who Am I?
                     </h1>
                     <p>
-                        My name is Leonardo Conroy and I am a computer science student at Towson University.
+                        My name is Leonardo Conroy and I am a computer science major and sociology minor at Towson University.
                     </p>
                     <h4>
                         Where do I live?
@@ -40,6 +43,30 @@ const Home = () =>{
                 <h3>
                     My Skills
                 </h3>
+                <Accordion defaultActiveKey="1" flush>
+                {skills.map(({ id, skill, desc }) => (
+                    <Accordion.Item eventKey={id}>
+                        <Accordion.Header>{skill}</Accordion.Header>
+                        <Accordion.Body className = "accordion-panel">
+                            {desc}
+                        </Accordion.Body>
+                    </Accordion.Item>
+
+                ))}
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>Java</Accordion.Header>
+                        <Accordion.Body class = "accordion-panel">
+                            I have done the majority of my coursework in Java and would consider it my best straightahead Object Oriented language.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                        <Accordion.Header>JavaScript</Accordion.Header>
+                        <Accordion.Body class = "accordion-panel">
+                            I would consider myself proficient in javaScript, it's what I've used the most in the past 2 years.
+                        </Accordion.Body>
+                    </Accordion.Item>
+
+                </Accordion>
             </Card>
         </Col>
         </Row>
