@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
     return(
-    <Navbar className="navbar" bg="light" expand="lg">
+    <Navbar bg = "dark" variant = "dark">
       <Container>
         <Navbar.Brand href="/">Leonardo Conroy</Navbar.Brand>
       </Container>

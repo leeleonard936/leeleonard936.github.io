@@ -38,11 +38,17 @@ const Home = () =>{
                 </Card.Body>
             </Card>
         </Col>
+
+
+
         <Col id = "sidecol">
             <Card class = "sidecard">
                 <h3>
                     My Skills
                 </h3>
+
+
+                
                 <Accordion defaultActiveKey="1" flush>
                 {skills.map(({ id, skill, desc }) => (
                     <Accordion.Item eventKey={id}>
@@ -53,19 +59,6 @@ const Home = () =>{
                     </Accordion.Item>
 
                 ))}
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>Java</Accordion.Header>
-                        <Accordion.Body class = "accordion-panel">
-                            I have done the majority of my coursework in Java and would consider it my best straightahead Object Oriented language.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header>JavaScript</Accordion.Header>
-                        <Accordion.Body class = "accordion-panel">
-                            I would consider myself proficient in javaScript, it's what I've used the most in the past 2 years.
-                        </Accordion.Body>
-                    </Accordion.Item>
-
                 </Accordion>
             </Card>
         </Col>

@@ -2,5 +2,9 @@
     text-align: center;
   }
 .navbar{
-  background-color: #282c34;
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+.title{
+  color: #ffffff;
 }
