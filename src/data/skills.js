@@ -22,32 +22,32 @@ export const skills = [
 {
     id: 5,
     skill: "Angular",
-    desc: ""
+    desc: "I have worked with Angular before and am familiar with it"
 },
 {
     id: 6,
     skill: "React",
-    desc: "I am relatively well versed in react and would say it is my favorite javascript library to use. This website is built using React!"
+    desc: "I am relatively well versed in React and would say it is my favorite javascript library to use. This website is built using React!"
 },
 {
     id: 7,
     skill: "Node.js",
-    desc: ""
+    desc: "I use Node.js to execute all of my projects and test my website builds"
 },
 {
     id: 8,
     skill: "CSS",
-    desc: ""
+    desc: "I use CSS in conjunction with html while using Angular, React, or other Javascript libraries"
 },
 {
     id: 9,
     skill: "Express.js",
-    desc: ""
+    desc: "I have used Express.js to create simple APIs"
 },
 {
     id: 10,
     skill: "UML",
-    desc: ""
+    desc: "I am familiar with UML through my Software Engineering and Object Oriented Design"
 },
 {
     id: 11,
@@ -62,7 +62,7 @@ export const skills = [
 {
     id: 13,
     skill: "Figma",
-    desc: ""
+    desc: "I have used Figma to "
 },
 {
     id: 14,
