@@ -47,27 +47,27 @@ export const skills = [
 {
     id: 10,
     skill: "UML",
-    desc: "I am familiar with UML through my Software Engineering and Object Oriented Design"
+    desc: "I am familiar with UML through my Software Engineering and Object Oriented Design classes"
 },
 {
     id: 11,
     skill: "MongoDB",
-    desc: ""
+    desc: "I have done some work in MongoDB through a web development course that I took"
 },
 {
     id: 12,
     skill: "SQL",
-    desc: ""
+    desc: "SQL is the database language that I am most familiar with through school"
 },
 {
     id: 13,
     skill: "Figma",
-    desc: "I have used Figma to "
+    desc: "I have used Figma to mock up multi-page websites as the design lead for most group work that I have participated in."
 },
 {
     id: 14,
     skill: "Git",
-    desc: ""
+    desc: "I am intimately familiar with git and use it on all of my group work, as well as for some personal projects such as this one!"
 },
 
 ];
